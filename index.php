@@ -13,27 +13,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sistema Web II</title>
+    <meta charset="UTF-8">
+    <title>Atividade</title>
 </head>
 <body>
-
-  <h1>Cadastro de Usuário</h1>
-  <p>Preencha os dados abaixo.</p>
-
-  <form method="POST" action="">
-    <label>Nome:</label><br>
-    <input type="text" name="nome" required><br><br>
-
-    <label>E-mail:</label><br>
-    <input type="email" name="email" required><br><br>
-
-    <label>Telefone:</label><br>
-    <input type="text" name="telefone" required><br><br>
-
-    <button type="submit">Cadastrar</button>
-  </form>
+ 
+    <h2>Cadastro de Usuário</h2>
+ 
+    <input type="text" id="nome" placeholder="Digite seu nome"><br><br>
+    <input type="text" id="telefone" placeholder="Digite seu telefone"><br><br>
+    <input type="email" id="email" placeholder="Digite seu e-mail"><br><br>
+    <button onclick="enviarDados()">Enviar</button>
+ 
+    <h3 id="mensagem"></h3>
+    <div id="resultado"></div>
+    <script src="script.js"></script>
+ 
+</body>
+</html>
 
   <?php if ($_SERVER["REQUEST_METHOD"] == "POST"): ?>
     <h2>Dados recebidos pelo servidor</h2>
