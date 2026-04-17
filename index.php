@@ -17,38 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <title>Atividade</title>
 
     <link rel="stylesheet" href="style.css">
-    <style>
-    body {
-        font-family: Arial;
-        background-color: #f4f4f4;
-        text-align: center;
-    }
-    input {
-        padding: 10px;
-        margin: 5px;
-        width: 250px;
-        border-radius: 5px;
-        border: 1px solid #ccc;
-    }
-    button {
-        padding: 10px 20px;
-        background-color: #4CAF50;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-    button:hover {
-        background-color: #45a049;
-    }
-    #resultado {
-        margin-top: 20px;
-        background-color: white;
-        padding: 15px;
-        border-radius: 8px;
-        display: inline-block;
-    }
-</style>
+    
 </head>
 <body>
 
