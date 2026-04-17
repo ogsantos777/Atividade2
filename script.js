@@ -13,16 +13,6 @@ function enviarDados() {
         return;
     }
 
-    if (!email.includes("@gmail")){
-    alert("Você precisa colocar um endereço de e-mail valido!")
-        return;
-    }
-
-    if (!email.includes("@hotmail")){
-    alert("Você precisa colocar um endereço de e-mail valido!")
-        return;
-    }
-
     document.getElementById("mensagem").innerHTML = "Dados recebidos com sucesso!";
  
     document.getElementById("resultado").innerHTML =
