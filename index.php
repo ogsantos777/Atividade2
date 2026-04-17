@@ -15,6 +15,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <title>Atividade</title>
+
+    <link rel="stylesheet" href="style.css">
     <style>
     body {
         font-family: Arial;
